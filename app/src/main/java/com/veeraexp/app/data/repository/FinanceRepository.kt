@@ -4,6 +4,7 @@ import com.veeraexp.app.data.dao.*
 import com.veeraexp.app.data.entity.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.map
 
 /**
  * Central place where the balance formula and the goal-transfer bridge
@@ -124,7 +125,7 @@ class FinanceRepository(
 
     /** All transactions, optionally filtered by a note/category search string. */
     fun observeTransactionsFiltered(query: String) =
-        kotlinx.coroutines.flow.map(transactionDao.getAll()) { list ->
+        transactionDao.getAll().map { list ->
             if (query.isBlank()) list
             else list.filter { it.note.contains(query, ignoreCase = true) }
         }
