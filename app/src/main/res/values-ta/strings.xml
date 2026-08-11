@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VEERA EXP</string>
+    <string name="ai_assistant_name">SAHA</string>
+
+    <string name="nav_home">முகப்பு</string>
+    <string name="nav_transactions">பரிவர்த்தனைகள்</string>
+    <string name="nav_goals">இலக்குகள்</string>
+    <string name="nav_saha">SAHA</string>
+    <string name="nav_settings">அமைப்புகள்</string>
+
+    <string name="current_balance">தற்போதைய இருப்பு</string>
+    <string name="total_income">மொத்த வருமானம்</string>
+    <string name="total_expenses">மொத்த செலவுகள்</string>
+    <string name="this_month_income">இந்த மாத வருமானம்</string>
+    <string name="this_month_expenses">இந்த மாத செலவுகள்</string>
+    <string name="savings">சேமிப்பு</string>
+    <string name="recent_transactions">சமீபத்திய பரிவர்த்தனைகள்</string>
+
+    <string name="add_income">+ வருமானம்</string>
+    <string name="add_expense">− செலவு</string>
+
+    <string name="opening_balance">தொடக்க இருப்பு</string>
+    <string name="investment_goals">முதலீட்டு இலக்குகள்</string>
+    <string name="budget">பட்ஜெட்</string>
+
+    <string name="settings_appearance">தோற்றம்</string>
+    <string name="settings_theme">தீம்</string>
+    <string name="settings_dark_mode">டார்க் மோட்</string>
+    <string name="settings_language">மொழி</string>
+    <string name="settings_floating_quick_add">Floating Quick Add</string>
+    <string name="settings_sound">ஒலி</string>
+    <string name="settings_vibration">அதிர்வு</string>
+    <string name="settings_app_lock">App Lock</string>
+    <string name="settings_backup">பேக்அப்</string>
+    <string name="settings_restore">மீட்டமை</string>
+</resources>
